@@ -1,0 +1,32 @@
+/* general */
+
+* {
+  margin: 0%;
+  padding: 0% box-sizing;
+}
+
+body {
+  background-color: gray;
+}
+
+/* utility */
+
+/* header */
+
+header {
+  background-color: white;
+  background-size: 30%;
+}
+
+header .logo {
+  display: inline;
+  width: 150px;
+  padding: 30px;
+}
+
+header .logo span {
+  font-size: 2rem;
+}
+/* main */
+
+/* footer */
