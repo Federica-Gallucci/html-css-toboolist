@@ -2,20 +2,30 @@
 
 * {
   margin: 0%;
-  padding: 0% box-sizing;
+  padding: 0%;
 }
 
 body {
-  background-color: gray;
+  background-color: rgba(245, 242, 242, 0.955);
 }
 
 /* utility */
+
+.bottoni {
+  width: 50px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 6px;
+}
 
 /* header */
 
 header {
   background-color: white;
   background-size: 30%;
+  margin-bottom: 50px;
 }
 
 header .logo {
@@ -27,6 +37,31 @@ header .logo {
 header .logo span {
   font-size: 2rem;
 }
+
 /* main */
+
+.tasto1 {
+  width: 50px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  background-color: rgb(0, 157, 255);
+  color: white;
+  border-radius: 5px;
+  padding-top: 6px;
+}
+
+.tasto2 {
+  width: 50px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  color: lightgray;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  border-radius: 5px;
+  padding-top: 6px;
+}
 
 /* footer */
