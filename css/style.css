@@ -12,12 +12,33 @@ body {
 /* utility */
 
 .bottoni {
-  width: 50px;
+  width: 100px;
+  height: 50px;
+  padding-bottom: 50px;
+}
+
+.circle {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-style: solid;
+  border-width: thin;
+  border-color: green;
+  color: green;
+  border-radius: 50px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.editor {
+  width: 40px;
   height: 15px;
   font-size: 10px;
   text-align: center;
-  border-radius: 5px;
-  padding-top: 6px;
+  background-color: rgb(0, 157, 255);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 /* header */
@@ -39,6 +60,10 @@ header .logo span {
 }
 
 /* main */
+
+main {
+  padding-left: 300px;
+}
 
 .tasto1 {
   width: 50px;
