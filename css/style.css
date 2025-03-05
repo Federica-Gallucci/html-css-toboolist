@@ -41,6 +41,57 @@ body {
   padding: 5px;
 }
 
+.goals {
+  width: 40px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  background-color: rgba(128, 0, 128, 0.607);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.mobile {
+  width: 40px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.spazioblocco {
+  height: 15px;
+  margin-top: 15px;
+}
+
+.circlex {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-style: solid;
+  border-width: thin;
+  border-color: red;
+  color: red;
+  border-radius: 50px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.recruiting {
+  width: 40px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.455);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
 /* header */
 
 header {
@@ -62,7 +113,13 @@ header .logo span {
 /* main */
 
 main {
-  padding-left: 300px;
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-left: 400px;
 }
 
 .tasto1 {
@@ -87,6 +144,11 @@ main {
   border-color: lightgray;
   border-radius: 5px;
   padding-top: 6px;
+}
+
+.today {
+  height: 200px;
+  padding-top: 30px;
 }
 
 /* footer */
